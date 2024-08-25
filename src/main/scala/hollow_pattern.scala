@@ -4,7 +4,7 @@ def main (args: Array[String]): Unit = {
   val rows = 4
   println("* "*columns)
   for (i <- 1 to rows-2){
-    println("*"+" "*(columns) +"*")
+    println("*"+" "*columns +"*")
   }
   print("* "*columns)
 }
